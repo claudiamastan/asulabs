@@ -1,0 +1,51 @@
+.top{
+    width: 75%;
+    margin: auto;
+    padding: 30px;
+}
+
+.top .text{
+    width: 70%;
+}
+
+.top .text-contact{
+    width: 30%;
+}
+
+.top .text.contact{
+    width: 50%;
+}
+.top .text-desc{
+    margin-top: 5em;
+}
+
+.bottom img{
+   width: 80%;
+}
+
+@media (max-width: 576px) {
+    .top{
+        margin-top: -1rem !important;
+    }
+
+    .top, .top .text{
+        margin: 1.5em 0;
+        width: 100%;
+    }
+
+    .top .text-desc{
+        margin-top: 1em;
+    }
+
+    .d-flex.reverse{
+        flex-direction: column-reverse !important;
+    }
+    
+    .d-flex{
+        display: block;
+    }
+
+    .top .text.contact, .top .text-contact, .bottom img{
+        width: 100%;
+    }
+}
